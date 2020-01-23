@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Print Affair</title>
+</head>
+<body>
+      <div class="nav-belt">
+        <div class="topnav-left">
+          <a onclick="openNav()" style="cursor: pointer;">&#9776</a>
+          <a href="#">Icon</a>
+        </div>
+        <div class="topnav-centered">
+          <input type="text" placeholder="Search">
+        </div>
+        <div class="topnav-right">
+          <a href="#">SignIn</a>
+          <a href="#">Cart</a>
+        </div>
+      </div>
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <img class="ad" src="assets/" alt="Advertisement">
+
+      <section id="heading"class="grid">
+        <h3>Products</h3>
+      </section>
+      
+      <section id="products" class="grid">  
+        <div class="card">
+            <img class="image" src="assets/firefox.png" alt="Firefox">
+            <h1>Firefox</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="image" src="assets/magellan.png" alt="Magellan">
+            <h1>Magellan</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="image" src="assets/felt.png" alt="felt">
+            <h1>felt</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="image" src="assets/cruz.png" alt="cruz">
+            <h1>cruz</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="image" src="assets/cruz.png" alt="cruz">
+            <h1>cruz</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img class="image" src="assets/magellan.png" alt="Magellan">
+            <h1>Magellan</h1>
+            <p class="price">$19.99</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+      </section>
+
+      <section id="heading" class="grid">
+        <h3>Accessories</h3>
+      </section>
+
+      <section id="accessories" class="grid">  
+        <div class="card">
+          <img class="image" src="assets/helmet.png" alt="Helmet">
+          <h1>Helmet</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img class="image" src="assets/pedal.png" alt="pedal">
+          <h1>Steel pedal</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img class="image" src="assets/saddle.png" alt="saddle">
+          <h1>Leather Saddle</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img class="image" src="assets/speedometer.png" alt="speedometer">
+          <h1>Speedometer</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img class="image" src="assets/saddle.png" alt="saddle">
+          <h1>Leather Saddle</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img class="image" src="assets/speedometer.png" alt="speedometer">
+          <h1>Speedometer</h1>
+          <p class="price">$19.99</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+    </section>
+
+    <footer>
+      <div id="contact" class="grid">
+        <ul class="social">
+          <li><a href="#"><img src="assets/icon_fb.svg" alt="facebook"></a></li>
+          <li><a href="#"><img src="assets/icon_tw.svg" alt="twitter"></a></li>
+        </ul>
+        <button onclick="topFunction()" id="myBtn">Top</button>
+      </div>
+      <div class="grid">
+        <p class="copyright">Copyright 2020 Print Affair</p>
+      </div>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.body.style.backgroundColor = "white";
+        }
+        </script>        
+</body>
+</html>
