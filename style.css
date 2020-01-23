@@ -130,7 +130,7 @@ footer{
 }
 .foot-grid{
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 footer .copyright{
   grid-column: 10/20; 
@@ -160,7 +160,7 @@ footer img{
 }
 
 #myBtn {
-  width: 55px;
+  width: 50px;
   border: none; /* Remove borders */
   background-color:rgb(13, 13, 14); /* Set a background color */
   color: rgb(170, 162, 162); /* Text color */
@@ -179,10 +179,19 @@ footer img{
   .nav-belt a {
     text-align: left;
   }
+  .nav-belt a:hover {
+    color: #ddd;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
   .card {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+  }
+  .card button:hover {
+    opacity: 0.7;
   }
   .grid{
     grid-template-columns: auto ;
@@ -190,7 +199,23 @@ footer img{
   footer .copyright{
     grid-column: 3/5;
   }
+  .foot-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
   footer a{
     font-size: 15px;
+  }
+  footer .help{
+    grid-column: 1/3;
+  }
+  footer .social{
+    grid-column: 3/3;
+  }
+  footer a:hover{
+    color: #ddd;
+  }
+  #myBtn:hover{
+    color: #ddd;
   }
 }
